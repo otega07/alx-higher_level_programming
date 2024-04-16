@@ -7,7 +7,7 @@ import sys
 
 if __name__ == "__main__":
     # Get MySQL credentials from command line arguments
-    # Connect MySQL server
+    # and connect to MySQL server
     db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
     cursor = db.cursor()
 
