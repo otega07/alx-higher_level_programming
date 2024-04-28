@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/bin/python3
 """ Algorithm for list of integers."""
 
 
